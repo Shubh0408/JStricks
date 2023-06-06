@@ -25,7 +25,18 @@ export default function Index() {
                         <td data-label="Name">tuggable light bulb draggable</td>
                         <td data-label="Staus"><Link to="/lighttuggable"><button type="button" class="btn btn-primary">Button</button></Link></td>
                     </tr>
+                    
+                    <tr>
+                        <td data-label="S.No">3</td>
+                        <td data-label="Name">Electro Monster</td>
+                        <td data-label="Staus"><Link to="/electromonster"><button type="button" class="btn btn-primary">Button</button></Link></td>
+                    </tr>
 
+                    <tr>
+                        <td data-label="S.No">4</td>
+                        <td data-label="Name">GSAP </td>
+                        <td data-label="Staus"><Link to="/gsap"><button type="button" class="btn btn-primary">Button</button></Link></td>
+                    </tr>
                 </tbody>
             </table>
         </>
