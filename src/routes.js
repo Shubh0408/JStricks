@@ -5,6 +5,10 @@ import YetiLogin from "./conatiner/YetiLogin/yetilogin";
 import LightTuggable from "./conatiner/LightTuggable/lighttuggable";
 import Electromonster from "./conatiner/Electromonster/electromonster";
 import GSAP from "./conatiner/GSAP/gsap";
+import DragImage from "./conatiner/DragImage/dragimage";
+import PhotoFlip from "./conatiner/PhotoFlip/photoflip";
+import Rasengan from "./conatiner/Rasengan/rasengan";
+import Test from "./conatiner/test/test";
 
 export default function AppRoute () {
     return (
@@ -15,6 +19,10 @@ export default function AppRoute () {
                 <Route element={<LightTuggable />} path="/lighttuggable" />
                 <Route element={<Electromonster />} path="/electromonster" />
                 <Route element={<GSAP />} path="/gsap" />
+                <Route element={<DragImage />} path="/dragimage" />
+                <Route element={<PhotoFlip />} path="/photoflip" />
+                <Route element={<Rasengan />} path="/rasengan" />
+                <Route element={<Test />} path="/test" />
             </Routes>
         </BrowserRouter>
     )

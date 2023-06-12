@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import { gsap, registerPlugin, MorphSVGPlugin, set, to, timeline  } from "gsap/all";
+
 
 export default function LightTuggable () {
 

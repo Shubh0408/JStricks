@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import { Button } from "bootstrap";
 import { Link } from "react-router-dom";
 
 export default function Index() {
@@ -36,6 +35,24 @@ export default function Index() {
                         <td data-label="S.No">4</td>
                         <td data-label="Name">GSAP </td>
                         <td data-label="Staus"><Link to="/gsap"><button type="button" class="btn btn-primary">Button</button></Link></td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="S.No">5</td>
+                        <td data-label="Name">Dragging image </td>
+                        <td data-label="Staus"><Link to="/dragimage"><button type="button" class="btn btn-primary">Button</button></Link></td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="S.No">5</td>
+                        <td data-label="Name">Photo flip </td>
+                        <td data-label="Staus"><Link to="/photoflip"><button type="button" class="btn btn-primary">Button</button></Link></td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="S.No">6</td>
+                        <td data-label="Name">Rasengan</td>
+                        <td data-label="Staus"><Link to="/rasengan"><button type="button" class="btn btn-primary">Button</button></Link></td>
                     </tr>
                 </tbody>
             </table>
