@@ -86,7 +86,7 @@ export default function DragImage() {
       }
     return (
         <>
-            <html lang="en" id="body">
+            <html lang="en" >
                 <head>
                     <meta charset="UTF-8" />
                     <title>Drag Papers ❤️</title>
@@ -100,29 +100,29 @@ export default function DragImage() {
                         <source src="https://www2.cs.uic.edu/~i101/SoundFiles/StarWars3.wav"></source>
                     </audio>
                     <div class="paper image">
-                        <p> and I fallen in</p>
-                        <p>Love with You 😍 </p>
+                        <p id="dragPara"> and I fallen in</p>
+                        <p id="dragPara">Love with You 😍 </p>
                         <img src="https://iili.io/HSzXpzg.jpg" />
                     </div>
                     <div class="paper image">
-                        <p></p>
+                        <p id="dragPara"></p>
                         <img src="https://iili.io/HSzXbmF.jpg" />
                     </div>
                     <div class="paper image">
-                        <p>How can be </p>
-                        <p> someone so cute ❤️ </p>
+                        <p id="dragPara">How can be </p>
+                        <p id="dragPara"> someone so cute ❤️ </p>
                         <img src="https://iili.io/HSzXyXa.jpg" />
                     </div>
                     <div class="paper red">
-                        <p class="p1"> and My Favorite</p>
-                        <p class="p2">Person 😍</p>
+                        <p id="dragPara" class="p1"> and My Favorite</p>
+                        <p id="dragPara" class="p2">Person 😍</p>
                     </div>
                     <div class="paper">
-                        <p class="p1">You are Cute </p>
-                        <p class="p1">Amazing <span>❤️</span></p>
+                        <p id="dragPara" class="p1">You are Cute </p>
+                        <p id="dragPara" class="p1">Amazing <span>❤️</span></p>
                     </div>
                     <div class="paper">
-                        <p class="p1">Drag the papers to move!</p>
+                        <p id="dragPara" class="p1">Drag the papers to move!</p>
                     </div>
 
                 </body>

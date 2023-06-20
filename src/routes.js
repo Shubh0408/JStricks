@@ -9,6 +9,7 @@ import DragImage from "./conatiner/DragImage/dragimage";
 import PhotoFlip from "./conatiner/PhotoFlip/photoflip";
 import Rasengan from "./conatiner/Rasengan/rasengan";
 import Test from "./conatiner/test/test";
+import Error from "./conatiner/Sidebar/error";
 
 export default function AppRoute () {
     return (
@@ -23,6 +24,7 @@ export default function AppRoute () {
                 <Route element={<PhotoFlip />} path="/photoflip" />
                 <Route element={<Rasengan />} path="/rasengan" />
                 <Route element={<Test />} path="/test" />
+                <Route element={<Error />} path="/error" />
             </Routes>
         </BrowserRouter>
     )
