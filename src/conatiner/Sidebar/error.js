@@ -10,6 +10,7 @@ export default class extends Component {
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></link>
                 <h1 className="error-h1">𝟰𝟬𝟰</h1>
                 <div className="error-img">
+                <img src="https://cdn.dribbble.com/users/285475/screenshots/2083086/media/a683df6fd0b57db02968b6194c88d868.gif" width="460" height="345" />
                     {/* <img src={error} alt="errorimage" /> */}
                 </div>                
                 <p className="span-head"><strong>Looks like you're lost</strong> <br />the page you are looking for is not available!</p>
